@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>LoopLab</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand w-text"><h4>LoopLAB</h4></a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#nav-nav"
+        >
+          <i class="navbar-toggler-icon"></i>
+        </button>
+        <div id="nav-nav" class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#explore" class="nav-link">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a href="#create" class="nav-link">Create</a>
+            </li>
+            <li class="nav-item">
+              <a href="#share" class="nav-link">Share</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SHOWCASE -->
+
+    <section id="showcase">
+      <div class="dark-overlay">
+        <div class="showcase-inner container py-5">
+          <div class="row">
+            <div class="col-md-8 d-none d-md-block">
+              <h1 class="display-4">
+                Build <strong>social profiles</strong> and gain revenue
+                <strong>profits</strong>
+              </h1>
+              <div class="d-flex mt-5">
+                <div class="justify-content-start">
+                  <i class="fas fa-check fa-lg p-3 mt-3"></i>
+                </div>
+                <div class="justify-content-end p-3">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia, dolorem earum! Commodi eligendi corporis nisi.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="justify-content-start">
+                  <i class="fas fa-check fa-lg p-3 mt-3"></i>
+                </div>
+                <div class="justify-content-end p-3">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia, dolorem earum! Commodi eligendi corporis nisi.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="justify-content-start">
+                  <i class="fas fa-check fa-lg p-3 mt-3"></i>
+                </div>
+                <div class="justify-content-end p-3">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia, dolorem earum! Commodi eligendi corporis nisi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-primary text-center card-form">
+                <div class="card-body">
+                  <h3>Sign Up Today</h3>
+                  <p>Please Fill Out This Form To Register</p>
+                  <form>
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Username"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="password"
+                        class="form-control"
+                        placeholder="Password"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="password"
+                        class="form-control"
+                        placeholder="Confirm Password"
+                      />
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary">
+                      Send
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $("#year").text(new Date().getFullYear());
+    </script>
+  </body>
+</html>
