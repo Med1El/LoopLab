@@ -1,0 +1,21 @@
+body {
+  background: #333;
+  color: #eee;
+}
+
+#navbar {
+  border-bottom: 3px #008ed6 solid;
+  opacity: 0.8;
+}
+
+.w-text {
+  color: #eee !important;
+}
+
+#showcase {
+  background: url("../img/home.jpg") no-repeat center center / cover;
+}
+
+.dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
