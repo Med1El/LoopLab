@@ -39,13 +39,23 @@ body {
   min-height: 40vh;
 }
 
-#explore-inner {
+#explore-inner,
+#share-inner {
   background: #eee;
   color: #111;
 }
 
 #create-img {
   background: url("../img/create-section1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  min-height: 40vh;
+}
+
+#share-img {
+  background: url("../img/share-section1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
